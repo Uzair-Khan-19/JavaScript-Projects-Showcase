@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice HTML</title>
+</head>
+<style>
+  .afterClick{
+    background-color: black;
+    color: white;
+  }
+  .afterClickyt{
+    background-color: black;
+    color: white;
+  }
+  
+</style>
+<body>
+  <button class="js-btn" 
+  onclick="startBtn()"
+  >Start</button>
+
+  <button onclick="addTocart()"
+  >Add to cart</button>
+  <div class="add-html"></div>
+  <!-- <input placeholder="Enter Your Name" class="js-user">
+  <button onkeydown="
+  handleKey(event)
+  ">Enter</button>
+  <p class="user1"></p> -->
+
+  <!-- <button class="js-game-btn" onclick="gameBtn()">Gaming</button>
+  <button class="js-yt-btn" onclick="youtubeBtn()">Youtube</button>
+  <button class="js-foot-btn" onclick="footballBtn()">Football</button> -->
+  <script>
+    // let name = 'Uzair'
+    // let hour = 12;
+    // if (hour >= 6 && hour <= 12) {
+    //   console.log(`Good Morning ${name}...`)
+    // }
+    // else if (hour >= 13 && hour <= 17){
+    //   console.log('Good Afternoon...')
+    // }
+    // else {
+    //   console.log('Good Night...')
+    // }
+
+    // function greet(name = 'Hi There!'){
+    //   console.log(`Hello ${name}`)
+    // }
+
+    // greet()
+
+    // function handleKey(event){
+    //    if (event.key === 'Enter') {
+    //     userInput();
+    //   }
+    //  }
+
+    // function userInput(){
+    //   const user = document.querySelector('.js-user');
+    //   let userna = user.value ;
+    //   console.log( userna)
+    //   document.querySelector('.user1').innerHTML = `Hello ${userna}`
+    // }
+  
+  
+    // let gameBtn = document.querySelector('.js-game-btn');
+    // let ytBtn = document.querySelector('.js-yt-btn');
+    // let ftBtn = document.querySelector('.js-foot-btn');
+    
+    
+    /*  let gtBtn = document.querySelector('.js-game-btn');
+    let ytBtn = document.querySelector('.js-yt-btn');
+    let ftBtn = document.querySelector('.js-foot-btn');
+    function gameBtn(){
+      if (gtBtn.classList.contains('afterClick')) {
+        gtBtn.classList.remove('afterClick');
+      } else {
+        gtBtn.classList.add('afterClick');
+        ftBtn.classList.remove('afterClick')
+        ytBtn.classList.remove('afterClick');
+      }
+    }
+    function youtubeBtn(){
+      if (ytBtn.classList.contains('afterClick')) {
+        ytBtn.classList.remove('afterClick')
+      } else {
+        ytBtn.classList.add('afterClick');
+        ftBtn.classList.remove('afterClick')
+        gtBtn.classList.remove('afterClick');
+      }
+    } 
+    function footballBtn(){
+      if ( ftBtn.classList.contains('afterClick')) {
+         ftBtn.classList.remove('afterClick')
+      } else {
+        ftBtn.classList.add('afterClick');
+        gtBtn.classList.remove('afterClick');
+        ytBtn.classList.remove('afterClick');
+      }
+    }
+  */
+
+
+  //  let array = [1,2,3];
+  //  let result = [] ;
+
+  //   for (let i = 0; i < array.length; i++) {
+  //     const element = array[i];
+  //     result.push(element+1)
+  //   }
+  //   console.log(result)
+
+
+  // function minMax(nums){
+     
+  //   let result = {
+  //     min: null,
+  //     max: null
+  //   }
+
+  //   for (let i = 0; i < nums.length; i++) {
+  //     const element = nums[i]
+
+  //     if (result.min === null || element < result.min ) {
+  //       result.min = element
+  //     } 
+      
+  //     if (result.max === null || element > result.max) {
+  //       result.max = element
+  //     }
+
+  //   } 
+  //   return result;
+
+  // }
+  // console.log(minMax([1,-2,3]))
+  // console.log(minMax([]))
+
+ 
+  // for (let i = 1; i <= 20; i++) {
+  //   if (i % 3 === 0 && i % 5 === 0) {
+  //     console.log('FizzBuzz');
+  //   } else if (i % 3 === 0){
+  //     console.log('Fizz');
+  //   } else if(i % 5 === 0){
+  //     console.log('Buzz')
+  //   } else {
+  //     console.log(i);
+  //   }
+  // }
+  
+function startBtn(){
+  const btnElem = document.querySelector('.js-btn')
+
+    btnElem.innerHTML = 'Loading...'
+
+    setTimeout(function(){
+      btnElem.innerHTML = 'Finished!'
+    },1000)
+}
+
+function addTocart(){
+  const addElem = document.querySelector('.add-html')
+  setTimeout(function(){
+   if(addElem.innerHTML === ''){
+    addElem.innerHTML = 'Added!'
+   } else {
+    addElem.innerHTML = ''
+   }
+  },1000)
+ 
+}
+</script>
+</body>
+</html>

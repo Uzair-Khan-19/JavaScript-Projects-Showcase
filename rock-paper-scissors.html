@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock-Paper-Scissors</title>
+ <link rel="stylesheet" href="CSS-folder/rock-paper-scissors.css">
+</head>
+<body>
+  <div class="container">
+  <p class="heading"> Rock Paper & Sciccors Game</p>
+  <div class="option-container">
+  <button class="move-btn js-rock-btn"
+  ><img src="images/rock-emoji.png" class="move-icon">
+  </button>
+
+  <button class="move-btn js-paper-btn"
+  ><img src="images/paper-emoji.png" class="move-icon">
+  </button>
+
+  <button class="move-btn js-scissors-btn"
+  > <img src="images/scissors-emoji.png" class="move-icon">
+  </button>
+</div>
+  <p class="js-result">you win</p>
+
+  <p class="js-move"></p>
+
+  <P class="js-score"></P>
+
+  <button class="reset-btn"
+  onclick="resetScore()" 
+  >Reset Score</button>
+
+  <button class="auto-btn" 
+   onclick="autoPlay()"
+  >Auto Play</button>
+
+  <p class="show-confirmation"></p> 
+  </div>
+  <script src="Javascript-folder/rock-paper-scissors.js"></script>
+</body>
+</html>

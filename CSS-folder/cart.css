@@ -1,0 +1,22 @@
+body
+{
+  background-color: rgb(12, 46, 120);
+  color: white;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+button
+{
+  background-color: white;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  border-radius: 15px;
+}
+.js-item
+{
+  background-color: gray;
+  width:17%;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}

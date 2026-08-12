@@ -1,0 +1,60 @@
+ body {
+      background-color: rgb(27, 26, 26);
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      display: flex;
+      justify-content: center;
+    }
+    .container{
+      border: 2px solid grey;
+      width: 500px;
+      padding: 10px;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 15px;
+    }
+    .heading{
+      font-size: 30px;
+    }
+    .move-icon{
+      height: 50px;
+      cursor: pointer;
+    }
+    .move-btn{
+      background: transparent;
+      border: 5px solid white;
+      width: 120px;
+      height: 120px;
+      border-radius: 60px;
+      margin: 15px;
+      cursor: pointer;
+    }
+    .js-result{
+      font-size: 28px;
+    }
+    .js-move {
+      font-size: larger;
+    }
+    .js-score{
+      font-size: 22px;
+    }
+    .reset-btn , .auto-btn , .js-reset-yes-btn ,.js-reset-no-btn{
+      padding: 12px;
+      font-size: 18px;
+      font-weight: 500;
+      cursor: pointer;
+      background-color: white;
+      color: black;
+      border: none;
+      border-radius: 5px;
+      margin: 10px;
+      width: 100%;
+    }
+    .show-confirmation{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 18px;
+     color: white;
+    }

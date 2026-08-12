@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dom project</title>
+ <link rel="stylesheet" href="CSS-folder/project-dom.css">
+</head>
+<body>
+  <h3>Youtube Subscribe Button</h3>
+  <Button onclick="
+    subscribeBTN()
+    "class="subscribe-btn red-btn">
+  Subscribe</Button>
+
+  <h3>Cost of products in Amazon</h3>
+  
+  <input placeholder="Cost of order"
+    class="js-calculate" onkeydown="
+    handleKey()
+  ">
+  <button onclick="
+    calculateCost()
+  " class="Calculate-btn">Calculate</button>
+
+  <p class="result"></p>
+  
+ <script src="Javascript-folder/project-dom.js"></script>
+</body>
+</html>
