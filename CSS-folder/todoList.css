@@ -55,6 +55,7 @@ color: white;
   font-weight: 500;
   border-radius: 3px;
   border: none;
+  width: 150px;
   cursor: pointer;
 }
 .delete-btn{
