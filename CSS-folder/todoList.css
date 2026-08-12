@@ -42,10 +42,10 @@ color: white;
   cursor: pointer;
 }
 .input-todo{
-  width: 170px;
+  width: 200px;
 }
 .js-due-date{
-  width:130px;
+  width:150px;
 }
 .add-btn{
   margin-bottom: 10px;
@@ -55,7 +55,7 @@ color: white;
   font-weight: 500;
   border-radius: 3px;
   border: none;
-  width: 80px;
+  width: 100px;
   cursor: pointer;
 }
 .delete-btn{
