@@ -8,7 +8,7 @@ A collection of web projects I built while learning and practicing JavaScript. T
 The projects focus on JavaScript fundamentals, DOM manipulation, event handling, application logic, and building interactive web experiences.
 
 ## Live Demo 
-Link: 
+Link: https://uzair-khan-19.github.io/JavaScript-Projects-Showcase/
 ## Projects
 
 ### 1. To-Do App
