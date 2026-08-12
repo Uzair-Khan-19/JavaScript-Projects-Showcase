@@ -10,7 +10,7 @@ renderTodoList()
       const element = todoList[i];
       let name = element.name
       let dueDate = element.dueDate
-      const html = `<div> ${name} </div>
+      const html = `<div class="name"> ${name} </div>
          <div> ${dueDate} </div>
          <button class="delete-btn js-dlt-btn">Delete</button> `;
       todoListhtml +=  html;
